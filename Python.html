@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+</head>
+<style>
+    body {
+        position: relative; /* Torna o body o contêiner principal para o overlay */
+        background-image: url("https://cdn.bap-software.net/2024/06/14204324/What-is-Python-3.12_11zon.webp");
+        background-size: cover; /* Ajusta a imagem para cobrir a tela */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0; /* Remove margens padrão */
+        min-height: 100vh; /* Garante altura mínima de 100% da tela */
+        background-attachment: fixed; /* Fixa o fundo para dar efeito de rolagem */
+        color: rgb(3, 0, 0); /* Define uma cor padrão para o texto */
+    }
+
+    /* Cria a camada escura sobre a imagem */
+    body::before {
+        content: ""; /* Necessário para pseudoelementos */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.863); /* Fundo preto com maior opacidade */
+        z-index: 0; /* Coloca o overlay atrás do conteúdo */
+    }
+
+    h1 {
+        color: rgb(0, 255, 234);
+        position: relative; /* Mantém o texto acima da camada escura */
+        z-index: 1; /* Garante que o texto fique visível acima do overlay */
+    }
+
+    h2 {
+        color: rgb(0, 255, 0);
+        position: relative; /* Mantém o texto acima da camada escura */
+        z-index: 1; /* Garante que o texto fique visível acima do overlay */
+    }
+
+    h3 {
+        color: rgb(0, 4, 255);
+        position: relative; /* Mantém o texto acima da camada escura */
+        z-index: 1; /* Garante que o texto fique visível acima do overlay */
+    }
+
+    li {
+        color: rgb(251, 255, 0);
+        position: relative; /* Mantém o texto acima da camada escura */
+        z-index: 1; /* Garante que o texto fique visível acima do overlay */
+    }
+
+    p {
+        position: relative; /* Mantém os parágrafos acima da camada escura */
+        z-index: 1; /* Garante que o texto fique visível acima do overlay */
+    }
+</style>
+<body>
+    <h1>Python</h1>
+
+    <h2>Como surgiu?</h2>
+    <h3>Python foi criado para ser uma linguagem de programação fácil de aprender, legível e prática. Foi projetado para combinar a capacidade de scripts e automação com a robustez das linguagens tradicionais.</h3>
+
+    <h2>Que criou a linguagem Python?</h2>
+    <h3>Python foi criado por Guido van Rossum, um programador holandês.</h3>
+
+    <h2>Onde foi criado?</h2>
+    <h3>O desenvolvimento inicial de Python ocorreu no Centro de Matemática e Informática (CWI) em Amsterdã, na Holanda.</h3>
+
+    <h2>Quando foi criado o Python?</h2>
+    <h3>O trabalho em Python começou no final de 1989 e a primeira versão oficial (Python 1.0) foi lançada em 20 de fevereiro de 1991.</h3>
+
+    <h2>Por que?</h2>
+    <h3>Guido van Rossum queria criar uma linguagem que fosse:</h3>
+        <li>Simples e legível como o inglês.</li>
+        <li>Adequada tanto para scripts pequenos quanto para grandes aplicações.</li>
+        <li>Baseada em sua experiência com a linguagem ABC, corrigindo suas limitações. O objetivo era também facilitar tarefas comuns de automação, prototipagem e desenvolvimento rápido.</li>
+    
+    <h2>Quais são os seus fundamentos?</h2>
+    <h3>Os fundamentos do Python incluem:</h3>
+        <li><strong>Simplicidade:</strong> Código fácil de ler e escrever.</li>
+        <li><strong>Flexibilidade:</strong> Paradigmas variados (orientado a objetos, funcional, procedural).</li>
+        <li><strong>Modularidade:</strong> Uso extensivo de bibliotecas.</li>
+        <li><strong>Integração:</strong> Fácil integração com outras linguagens como C, C++ e Java.</li>
+        <li><strong>Portabilidade:</strong> Código executável em diferentes plataformas.</li>
+        <li><strong>Interatividade:</strong> Suporte a execução interativa para testes e depuração.</li>
+
+    <h2>O que diz o Zen of Python?</h2>
+    <h3>O Zen of Python é um conjunto de princípios que guiam a filosofia da linguagem, acessível via import this. Alguns dos principais:</h3>
+        <li>Belo é melhor que feio.</li>
+        <li>Explícito é melhor que implícito.</li>
+        <li>Simples é melhor que complexo.</li>
+        <li>Complexo é melhor que complicado.</li>
+        <li>Legibilidade conta.</li>
+    <h3>Esses princípios reforçam a ideia de clareza, simplicidade e produtividade.</h3>
+
+    <h2>O desempenho do Python?</h2>
+    <h3>Python é conhecido por sua versatilidade, mas não é a linguagem mais rápida em termos de desempenho bruto porque é interpretada e não compilada. No entanto:</h3>
+        <li>Existem ferramentas como Cython, PyPy e NumPy que ajudam a melhorar o desempenho.</li>
+        <li>Seu desempenho é geralmente compensado por sua produtividade e facilidade de uso.</li>
+        
+    <h2>Onde aplicar o Python?</h2>
+    <h3>Python é amplamente usado em diversas áreas, incluindo:</h3>
+        <li><strong>Desenvolvimento Web:</strong> Frameworks como Django e Flask.</li>
+        <li><strong>Ciência de Dados e Machine Learning:</strong> Bibliotecas como Pandas, NumPy e TensorFlow.</li>
+        <li><strong>Automação e Scripting:</strong> Uso em tarefas repetitivas.</li>
+        <li><strong>Desenvolvimento de jogos:</strong> Frameworks como Pygame.</li>
+        <li><strong>Redes e segurança:</strong> Programas para análise de rede.</li>
+        <li><strong>Desenvolvimento de aplicativos desktop:</strong> Usando Tkinter, PyQt.</li>
+    
+    <h2>Áreas de trabalho com o Python.</h2>
+        <li>Desenvolvedor Web.</li>
+        <li>Cientista de Dados.</li>
+        <li>Engenheiro de Machine Learning.</li>
+        <li>Engenheiro DevOps.</li>
+        <li>Especialista em Segurança Cibernética.</li>
+        <li>Desenvolvedor de Jogos.</li>
+        <li>Automação de Processos.</li>
+
+    <h2>Bibliotecas do Python.</h2>
+    <h3>Algumas das principais bibliotecas são:</h3>
+        <li><strong>NumPy:</strong> Cálculos numéricos.</li>
+        <li><strong>Pandas:</strong> Manipulação de dados.</li>
+        <li><strong>Matplotlib/Seaborn:</strong> Visualização de dados.</li>
+        <li><strong>Scikit-learn:</strong> Machine learning.</li>
+        <li><strong>TensorFlow/PyTorch:</strong> Redes neurais e deep learning.</li>
+        <li><strong>Flask/Django:</strong> Desenvolvimento web.</li>
+        <li><strong>OpenCV:</strong> Processamento de imagens.</li>
+        <li><strong>Requests:</strong> Requisições HTTP.</li>
+        <li><strong>BeautifulSoup:</strong> Web scraping.</li>
+        <li><strong>Pytest:</strong> Testes automatizados.</li>
+
+</body>
+</html>
